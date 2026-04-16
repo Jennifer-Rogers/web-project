@@ -26,13 +26,13 @@ nav a:hover {
 }
 
 .main-nav {
-    background-color: #8c6f56;
+    background-color: #7a5f49;
     padding: 12px;
     text-align: center;
 }
 
 .main-nav a {
-    color: #24170f;   /* closest passing earthy brown */
+    color: #24170f;   
     text-decoration: none;
     font-weight: bold;
     padding: 10px 18px;
@@ -42,7 +42,7 @@ nav a:hover {
 
 .main-nav a:hover {
     background-color: #b08a6b;
-    color: #1a120b;   /* slightly darker hover text */
+    color: #1a120b;   
 }
 
 
