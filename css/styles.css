@@ -1,15 +1,17 @@
 body {
     background-color: #f4efe6;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     color: #333;
 }
+
 nav table {
     width: 100%;
     background-color: #8c6f56;
     padding: 10px 0;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -17,27 +19,32 @@ nav a {
     padding: 10px 20px;
     display: inline-block;
 }
+
 nav a:hover {
     background-color: #b08a6b;
     border-radius: 6px;
 }
+
 h1 {
     font-size: 2.5rem;
     color: #5a3e2b;
     text-align: center;
     margin-top: 30px;
 }
+
 h2 {
     font-size: 2rem;
     color: #7a5230;
-    text-align: center;
     margin-top: 40px;
+    text-align: center;
 }
+
 h3 {
     font-size: 1.3rem;
     color: #8c6f56;
     margin-bottom: 10px;
 }
+
 p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -45,22 +52,27 @@ p {
     width: 85%;
     margin: 0 auto 20px auto;
 }
+
 ol li {
     margin-bottom: 8px;
     font-size: 1.1rem;
     color: #5a3e2b;
 }
+
 ol {
     width: 80%;
     margin: 0 auto;
 }
+
 a {
     color: #5a3e2b;
 }
+
 a:hover {
     color: #a06f45;
     text-decoration: underline;
 }
+
 #pictures {
     width: 90%;
     margin: 0 auto;
@@ -84,7 +96,7 @@ a:hover {
 .photo img {
     width: 100%;
     height: auto;
-    border-radius: 12px;          
+    border-radius: 12px;
     box-shadow: 0 0 8px rgba(0,0,0,0.25);
     transition: transform 0.2s ease-in-out;
 }
@@ -93,6 +105,31 @@ a:hover {
     transform: scale(1.03);
 }
 
-.photo h3 {
-    margin-bottom: 10px;
+#details table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fdfbf7;
+    border: 3px solid #5a3e2b;
 }
+
+#details th {
+    background-color: #d2b48c;
+    color: #3b2a1a;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: 2px solid #5a3e2b;
+}
+
+#details td {
+    background-color: #f0e4d7;
+    padding: 12px;
+    border: 2px solid #5a3e2b;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+#details tr:nth-child(2) th {
+    background-color: #e8d3b0;
+}
+
