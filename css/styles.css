@@ -89,7 +89,7 @@ a:hover {
 
 .photo {
     text-align: center;
-    padding: 10px;
+    padding: 0;
     border-radius: 12px;
 }
 
@@ -97,6 +97,9 @@ a:hover {
     width: 100%;
     height: auto;
     border-radius: 12px;
+    background-color: #e3f2fa;   
+    padding: 10px;               
+    border: 3px solid #4A6F3E;   
     box-shadow: 0 0 8px rgba(0,0,0,0.25);
     transition: transform 0.2s ease-in-out;
 }
@@ -104,6 +107,8 @@ a:hover {
 .photo img:hover {
     transform: scale(1.03);
 }
+
+
 
 #details table {
     width: 90%;
@@ -121,16 +126,15 @@ a:hover {
     border: 2px solid #5a3e2b;
 }
 
+#details tr:nth-child(2) th {
+    background-color: #6FAED9;
+}
+
 #details td {
     background-color: #f0e4d7;
     padding: 12px;
     border: 2px solid #5a3e2b;
     text-align: center;
     font-size: 1.05rem;
-}
-
-
-#details tr:nth-child(2) th {
-    background-color: #e8d3b0;
 }
 
