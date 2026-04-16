@@ -26,13 +26,13 @@ nav a:hover {
 }
 
 .main-nav {
-    background-color: #7a5f49;
+    background-color: #6FAED9;
     padding: 12px;
     text-align: center;
 }
 
 .main-nav a {
-    color: #24170f;   
+    color: #3b2a1a;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 18px;
@@ -41,11 +41,9 @@ nav a:hover {
 }
 
 .main-nav a:hover {
-    background-color: #b08a6b;
-    color: #1a120b;   
+    background-color: #a7c7d9;
+    color: #2a1c12;
 }
-
-
 
 h1 {
     font-size: 2.5rem;
