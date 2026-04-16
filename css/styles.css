@@ -114,7 +114,7 @@ a:hover {
 }
 
 #details th {
-    background-color: #d2b48c;
+    background-color: #7aa87a;
     color: #3b2a1a;
     padding: 12px;
     font-size: 1.2rem;
@@ -128,6 +128,7 @@ a:hover {
     text-align: center;
     font-size: 1.05rem;
 }
+
 
 #details tr:nth-child(2) th {
     background-color: #e8d3b0;
