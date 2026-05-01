@@ -129,6 +129,16 @@ a:hover {
     grid-column: 1 / -1;
     margin-top: 40px;
 }
+#pictures > p {
+    grid-column: 1 / -1;
+}
+
+.vote-info {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #5a3e2b;
+}
 
 .photo {
     text-align: center;
@@ -178,6 +188,4 @@ a:hover {
     text-align: center;
     font-size: 1.05rem;
 }
-
-
 
