@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenTech Solutions | Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <h1 class="logo">GreenTech Solutions</h1>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+
+    <nav id="main-nav" class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="html/about.html">About</a></li>
+        <li><a href="html/products.html">Products</a></li>
+        <li><a href="html/blog.html">Resources</a></li>
+        <li><a href="html/contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="contrast-toggle" class="btn secondary">High Contrast</button>
+  </header>
+
+  <main id="main-content">
+
+    <section class="intro">
+      <div class="intro-text">
+        <h2>Eco-friendly technology solutions that help maintain a sustainable future!</h2>
+        <p>Helping businesses succeed while reducing their environmental impact.</p>
+        <a href="html/products.html" class="btn primary">Explore Products</a>
+      </div>
+
+      <div class="intro-image">
+        <img src="images/SmartThermostat.jpg" alt="Smart thermostat mounted on a wall">
+        <p class="photo-credit">
+          Photo by <a href="https://unsplash.com/@danlefeb">Dan LeFebvre</a> on 
+          <a href="https://unsplash.com">Unsplash</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="highlights">
+      <h2>What We Offer</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Energy-Efficient Devices</h3>
+          <p>Smart sensors and tools that help reduce energy usage.</p>
+        </article>
+
+        <article class="card">
+          <h3>Smart Recycling Systems</h3>
+          <p>Automated recycling solutions powered by IoT technology.</p>
+        </article>
+
+        <article class="card">
+          <h3>Carbon Tracking Software</h3>
+          <p>Monitor and report your organization's carbon footprint with real-time insights.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Stay Updated</h2>
+      <p>See updates on products and services. Read helpful tips to stay sustainable.</p>
+
+      <p class="newsletter-note">We're excited to share updates, tips, and new sustainable solutions with you.</p>
+
+      <form id="home-email-form">
+        <label for="home-email">Email Address</label>
+        <input type="email" id="home-email" required>
+        <button type="submit" class="btn secondary">Sign Up</button>
+        <p id="home-email-message" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 GreenTech Solutions</p>
+  </footer>
+
+  <script src="javascript/script.js"></script>
+</body>
+</html>
+

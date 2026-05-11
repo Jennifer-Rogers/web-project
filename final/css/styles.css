@@ -1,0 +1,419 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h2 {
+    color: #2e4d36;
+}
+
+.site-header {
+    background-color: #2e4d36;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    margin: 0;
+    color: white;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+    background-color: #2e4d36;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .main-nav {
+        display: none;
+    }
+    .main-nav.open {
+        display: block;
+        background-color: #3b5e47;
+        padding: 10px;
+    }
+    .main-nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    .nav-toggle {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+.btn {
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.primary {
+    background-color: #2e4d36;
+    color: white;
+}
+
+.secondary {
+    background-color: #3b5e47;
+    color: white;
+}
+
+.primary:hover,
+.secondary:hover {
+    background-color: #2e4d36;
+}
+
+#contrast-toggle {
+    margin-top: 10px;
+    border: 2px solid white;
+}
+
+img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-text h2 {
+    color: #2e4d36;
+    margin-bottom: 15px;
+}
+
+.intro-text p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    flex: 1;
+    text-align: center;
+}
+
+.intro-image img {
+    max-width: 350px;
+}
+
+.highlights {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 250px;
+}
+
+.newsletter {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about-section {
+    text-align: center;
+}
+
+.about-section ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.about-section h2 {
+    margin-top: 25px;
+}
+
+.timeline {
+    border-left: 3px solid #2e4d36;
+    padding-left: 25px;
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.timeline-item {
+    position: relative;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 18px 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.timeline-item::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-color: #2e4d36;
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+    top: 22px;
+}
+
+.timeline-date {
+    font-weight: bold;
+    color: #2e4d36;
+    margin-bottom: 8px;
+}
+
+.timeline-content {
+    line-height: 1.6;
+}
+
+.blog-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-item h3 {
+    color: #2e4d36;
+    margin-bottom: 10px;
+}
+
+.blog-item p {
+    line-height: 1.6;
+}
+
+.products-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.products-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-item h3 {
+    color: #2e4d36;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    line-height: 1.6;
+}
+
+.product-item img {
+    max-width: 300px;
+}
+
+.filter-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.filter-btn {
+  display: inline-block;
+}
+
+.filter-btn button {
+  background-color: #2e4d36;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.photo-credit {
+    font-size: 0.85rem;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.photo-credit a {
+    color: #2e4d36;
+    text-decoration: underline;
+}
+
+.contact-section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.contact-item {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.contact-item h3 {
+    color: #2e4d36;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2e4d36;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.site-footer {
+    background-color: #2e4d36;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.high-contrast body,
+.high-contrast main,
+.high-contrast header,
+.high-contrast nav,
+.high-contrast footer {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.high-contrast nav a {
+    color: #B7D9F2;
+}
+
+.high-contrast .photo-credit,
+.high-contrast .photo-credit a {
+    color: #B7D9F2;
+}
+
+.high-contrast .intro-text p {
+    color: #B7D9F2;
+}
+
+.high-contrast button,
+.high-contrast #contrast-toggle {
+    background-color: #2e4d36;
+    color: white;
+    border: 1px solid #6FAED9;
+}
+
+.high-contrast input[type="email"] {
+    background-color: #000000;
+    color: #B7D9F2;
+    border: 1px solid #6FAED9;
+}
+
+.high-contrast h1,
+.high-contrast h2,
+.high-contrast h3 {
+    color: #6FAED9;
+}
+
+.high-contrast .card,
+.high-contrast .product-item,
+.high-contrast .blog-item,
+.high-contrast .contact-item {
+    background-color: #000000;
+    border-color: #6FAED9;
+    color: #B7D9F2;
+}
+
+.high-contrast footer {
+    background-color: #000000;
+    color: #B7D9F2;
+}
